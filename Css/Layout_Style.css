@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+} 
+
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(35,75,165,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    border:none;
+
+
+}
+
+header{
+    max-height: 72px;
+    width: 100%;
+  
+}
+
+.header_logo{
+    height:7vh;
+    width: auto;
+}
+
+.img-head{
+    max-height:6vh;
+    width: auto;
+    padding-left: 1vw;
+}
+ 
+.header-left{
+    width: 50%;
+}
+
+
+
+.header-right{
+    color : #234BA5;
+   
+
+}
+
+.header_fonts{
+   font-weight: bold;
+   font-size: 20px;
+}
+ 
+
+ 
+.hero_box{
+    background-color: #234BA5;
+    color: white;
+}
+
+.main_img{
+    width: 100vw;
+    
+    height: 50vh;
+}
+
+.first_heading_fonts{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #234BA5;
+}
+.navbar-toggler-icon{
+
+}
+ 
+.img_square{
+    height: 150px;
+    padding: 3px;
+    width: 150px;
+}
+.square_div{
+    height: 306px;
+    width: 306px;
+    border: 3px solid #f94900; 
+}
+ 
+.square_row{
+    padding-left:20%;
+    padding-right:20%;
+}
+
+
+.serviceclass{
+
+border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ justify-content: center;
+ text-align: center;
+ margin-left: 21%;
+
+}
+
+ .serviceclass>img{
+
+    height: 130px;
+    width: 130px;
+
+} 
+ 
+.serviceclass>p{
+  
+}
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  
+
+ 
+    .header-left{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-left>button{
+        float: left;
+    }
+
+
+    .header-right{
+        background-color: #234BA5;
+        color : white;
+        width: 100%;
+    }
+
+    .header_fonts{
+        font-weight: bold;
+        font-size: 14px;
+     }
+     .header_small_fonts{
+         font-size: 14px;
+     }
+
+
+  
+    .hero_box_sub{
+        width: 100%;
+       
+    }
+    .square_row{
+        padding-left:5%;
+        padding-right:5%;
+    }
+
+
+
+
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+
+    .header-left{
+        width: 100%;
+    }
+    .header-left>button{
+        float: left;
+    }
+
+    .header-right{
+        background-color: #234BA5;
+        color : white;
+        width: 100%;
+    }
+
+
+    .hero_box{
+        background-color: #234BA5;
+        color: white;
+    }
+    
+    .hero_box_sub{
+        width: 100%;
+       
+    }
+
+    .square_row{
+        padding-left:1%;
+        padding-right:1%;
+    }
+
+
+
+ }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    .header-left{
+        width: 100%;
+    }
+
+    .header-left>button{
+        float: left;
+    }
+    .header-right{
+        background-color: #234BA5;
+        color : white;
+        width: 100%;
+    }
+
+
+    .hero_box{
+        background-color: #234BA5;
+        color: white;
+    }
+     
+    /* .hero_box_sub{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+       
+    } */
+    .square_row{
+        padding-left:5%;
+        padding-right:5%;
+    }
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+
+    .header-left{
+        width: 100vw;
+    }
+
+    .header-left>button{
+        float: left;
+       /* background-color: olive; */
+    }
+    .header-right{
+        background-color: #234BA5;
+        color : white;
+        width: 100%;
+    }
+
+
+    .hero_box{
+        background-color: #234BA5;
+        color: white;
+    }
+    
+    .hero_box_sub{
+        width: 100%;
+       
+    }
+    
+
+   
+
+
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+.hero_box{
+    background-color: #234BA5;
+    color: white;
+}
+
+.hero_box_sub{
+    padding-left: 25%;
+    padding-right: 25%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
